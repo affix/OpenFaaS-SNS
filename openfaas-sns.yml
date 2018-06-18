@@ -3,7 +3,7 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
-  sns-demo:
+  openfaas-sns:
     lang: go
-    handler: ./sns-demo
-    image: affixxx/sns-demo
+    handler: ./openfaas-sns
+    image: affixxx/openfaas-sns
