@@ -1,0 +1,6 @@
+hash: 5ddc35b692e7b869cedcdf3db3ffcb942605440fa4c39acf3f4dcf7ad2cdf39e
+updated: 2018-06-18T21:27:38.748716+01:00
+imports:
+- name: github.com/robbiet480/go.sns
+  version: 208b4fd8d60f0d2f7ce3611ca193621a973d0f4c
+testImports: []

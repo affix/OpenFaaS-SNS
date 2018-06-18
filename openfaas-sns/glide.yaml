@@ -1,0 +1,3 @@
+package: .
+import:
+- package: github.com/robbiet480/go.sns
