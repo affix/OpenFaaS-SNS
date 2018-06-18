@@ -11,6 +11,7 @@ notifications and subscriptions.
 
 ## Caveats
 
+- We do not calculate the Signatures of the messages
 - The function return is not visible to SNS, this is intended to be used to trigger other
 functions or do background processing. (A simple usecase would be to subscribe to
  S3 Bucket changes, Then process the files uploaded to s3).
