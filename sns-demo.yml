@@ -6,4 +6,4 @@ functions:
   sns-demo:
     lang: go
     handler: ./sns-demo
-    image: sns-demo
+    image: affixxx/sns-demo
