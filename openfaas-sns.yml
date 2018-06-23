@@ -7,3 +7,5 @@ functions:
     lang: go
     handler: ./openfaas-sns
     image: affixxx/openfaas-sns
+    environment:
+      write_debug: true
