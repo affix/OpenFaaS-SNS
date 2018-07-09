@@ -1,0 +1,21 @@
+apiVersion: openfaas.com/v1alpha2
+kind: Function
+metadata:
+  name: openfaas-sns
+  namespace: openfaas-fn
+spec:
+  name: openfaas-sns
+  handler: ./openfaas-sns
+  image: affixxx/openfaas-sns 
+  labels:
+    com.openfaas.scale.min: "2"
+    com.openfaas.scale.max: "15"
+  environment:
+    output: "verbose"
+    debug: "true"
+  limits:
+    cpu: "200m"
+    memory: "1Gi"
+  requests:
+    cpu: "10m"
+    memory: "128Mi"
